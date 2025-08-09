@@ -1,0 +1,162 @@
+/* Dashboard.css */
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 8px;
+}
+
+.d-flex {
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.form-select {
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 1rem;
+  color: #34495e;
+  transition: border-color 0.3s ease;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 5px #2980b9;
+}
+
+.form-control {
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  color: #2c3e50;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 8px #2980b9;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.table thead tr th {
+  background: #3498db;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 15px;
+  text-align: left;
+  border-radius: 8px 8px 0 0;
+}
+
+.table tbody tr {
+  background: #f9fbfd;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(52, 152, 219, 0.1);
+  border-radius: 8px;
+}
+
+.table tbody tr:hover {
+  background-color: #e8f0fe;
+}
+
+.table tbody tr td {
+  padding: 14px 15px;
+  vertical-align: middle;
+  color: #34495e;
+  font-weight: 500;
+  border-bottom: none;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-sm {
+  font-size: 0.85rem;
+  padding: 4px 12px;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+}
+
+.btn-success:hover:not(:disabled) {
+  background-color: #27ae60;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background-color: #c0392b;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.bg-success {
+  background-color: #27ae60 !important;
+  color: white;
+}
+
+.bg-danger {
+  background-color: #c0392b !important;
+  color: white;
+}
+
+.text-muted {
+  color: #7f8c8d !important;
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center !important;
+}
